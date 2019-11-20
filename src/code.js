@@ -4,7 +4,7 @@ var TEST_TAB = SS.getSheetByName("autoTest");
 var STATS_TAB = SS.getSheetByName("stats");
 
 //functions
-function shuffle_items(array) { //shuffle the items within an array
+function shuffle_items(array) { //shuffles the items within an array
     for(var i = array.length - 1; i > 0; i--) {
       var j = Math.floor( Math.random() * (i + 1) ); //random index from 0 to i
       [array[i], array[j]] = [array[j], array[i]]; //swap elements
