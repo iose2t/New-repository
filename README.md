@@ -1,3 +1,10 @@
+# functionality
+this code is part of a program to learn vocabulary words from Dutch language. The user inputs new words into an excel file with the corresponding translation (in the user's mother language) in the column next to it. When running the script for the first time the system creates a test with 10 words randomly picked from the vocabulary list. As the user submits the corresponding answers, the system saves them and based on the success/fail stats provides a more customized test on each iteration.
+
+# running the code
+The code is located in the src folder and the spreadsheet containing the data is in data > raw folder.
+This code is intended to be read (not executed) with the purpose of evaluating the quality of it based on the concepts explained today. The code is a replica of a script written in JS linked to an online spreadsheet with its own workframe, therefore, it won't work on its own.  
+
 # test
 
 Version 0.1.0
